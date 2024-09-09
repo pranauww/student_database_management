@@ -7,7 +7,6 @@
 4. [Installation](#installation)
 5. [How to Use](#how-to-use)
 6. [Code Overview](#code-overview)
-7. [File Structure](#file-structure)
 
 ## Introduction
 The **Student Database Management System** is a console-based program developed in C for managing student records. It provides a user-friendly interface to perform various operations such as adding, searching, deleting, modifying, and displaying student records. The program stores student information in a file system and allows easy access and modification of records.
@@ -72,10 +71,3 @@ The system uses a structure `STUDENT` to hold student details, including:
 - The student records are stored in a file `DATABASE.DAT`.
 - A backup is created using `BACKUP.DAT`.
 - Temporary files are used for modifying and deleting records.
-
-## File Structure
-```
-- main.c              : The source code for the project.
-- DATABASE.DAT        : File where student records are stored.
-- BACKUP.DAT          : Backup file for the database.
-```
