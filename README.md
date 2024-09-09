@@ -8,7 +8,6 @@
 5. [How to Use](#how-to-use)
 6. [Code Overview](#code-overview)
 7. [File Structure](#file-structure)
-8. [License](#license)
 
 ## Introduction
 The **Student Database Management System** is a console-based program developed in C for managing student records. It provides a user-friendly interface to perform various operations such as adding, searching, deleting, modifying, and displaying student records. The program stores student information in a file system and allows easy access and modification of records.
